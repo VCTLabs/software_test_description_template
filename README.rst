@@ -41,10 +41,10 @@ Contents after a fresh clone::
   ├── pyproject.toml
   ├── requirements-dia.txt
   ├── resources  # these are references or pre-inputs to the build workflow
-  │   ├── STD_DID_DI-IPSC-81443.txt     # Software Version Description DID
+  │   ├── STD_DID_DI-IPSC-81439.txt     # Software Test Description DID
   │   ├── example-title-page.rst        # example title page source
   │   └── acme_webservice.py            # source code for the example system diagram
-  ├── STD
+  ├── std
   │   ├── EU_STD.rst                    # source code for the document/template
   │   ├── Makefile
   │   ├── images                        # graphics sources for document build
@@ -52,7 +52,8 @@ Contents after a fresh clone::
   │   │   └── acme.svg
   │   └── styles                        # old/new format style sheets
   │       ├── rst2pdf.style
-  │       └── STD.yaml
+  │       ├── cui.yaml
+  │       └── std.yaml
   ├── tox.ini                           # workflow configuration
   └── toxfile.py                        # workflow plugin file
 
