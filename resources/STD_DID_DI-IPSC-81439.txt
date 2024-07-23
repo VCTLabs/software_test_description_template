@@ -188,7 +188,7 @@ discussed, as applicable:
 
 a. Hardware and software configuration
 b. Flags, initial breakpoints, pointers, control parameters, or initial data to be set/reset prior
-to test commencement
+   to test commencement
 c. Preset hardware conditions or electrical states necessary to run the test case
 d. Initial conditions to be used in making timing measurements
 e. Conditioning of the simulated environment
@@ -206,9 +206,9 @@ d. Time or event sequence of test input
 e. The manner in which the input data will be controlled to:
     1) Test the item(s) with a minimum/reasonable number of data types and values
     2) Exercise the item(s) with a range of valid data types and values that test for overload,
-    saturation, and other "worst case" effects
+       saturation, and other "worst case" effects
     3) Exercise the item(s) with invalid data types and values to test for appropriate handling
-    of irregular inputs
+       of irregular inputs
     4) Permit retesting, if necessary
 
 4.x.y.4 Expected test results.
@@ -224,15 +224,15 @@ information shall be provided, as applicable:
 
 a. The range or accuracy over which an output can vary and still be acceptable
 b. Minimum number of combinations or alternatives of input and output conditions that
-constitute an acceptable test result
+   constitute an acceptable test result
 c. Maximum/minimum allowable test duration, in terms of time or number of events
 d. Maximum number of interrupts, halts, or other system breaks that may occur
 e. Allowable severity of processing errors
 f.Conditions under which the result is inconclusive and re-testing is to be performed
 g. Conditions under which the outputs are to be interpreted as indicating irregularities in input
-test data, in the test database/data files, or in test procedures
+   test data, in the test database/data files, or in test procedures
 h. Allowable indications of the control, status, and results of the test and the readiness for
-the next test case (may be output of auxiliary test software)
+   the next test case (may be output of auxiliary test software)
 i. Additional criteria not mentioned above.
 
 4.x.y.6 Test procedure.
@@ -248,7 +248,7 @@ level of detail is the level at which it is useful to specify expected results a
 actual results. The following shall be provided for each test procedure, as applicable:
 
 a. Test operator actions and equipment operation required for each step, including
-commands, as applicable, to:
+   commands, as applicable, to:
     1) Initiate the test case and apply test inputs
     2) Inspect test conditions
     3) Perform interim evaluations of test results
@@ -261,7 +261,7 @@ commands, as applicable, to:
     10) Terminate the test case
 b. Expected result and evaluation criteria for each step
 c. If the test case addresses multiple requirements, identification of which test procedure
-step(s) address which requirements. (Alternatively, this information may be provided in 5.)
+   step(s) address which requirements. (Alternatively, this information may be provided in 5.)
 d. Actions to follow in the event of a program stop or indicated error, such as:
     1) Recording of critical data from indicators for reference purposes
     2) Halting or pausing time-sensitive test-support software and test apparatus
@@ -285,16 +285,16 @@ identified and this paragraph shall address their effects and impacts upon the t
 This paragraph shall contain:
 
 a. Traceability from each test case in this STD to the system or CSCI requirements it
-addresses. If a test case addresses multiple requirements, traceability from each set of
-test procedure steps to the requirement(s) addressed. (Alternatively, this traceability may
-be provided in 4.x.y.1.)
+   addresses. If a test case addresses multiple requirements, traceability from each set of
+   test procedure steps to the requirement(s) addressed. (Alternatively, this traceability may
+   be provided in 4.x.y.1.)
 b. Traceability from each system or CSCI requirement covered by this STD to the test
-case(s) that address it. For CSCI testing, traceability from each CSCI requirement in the
-CSCI’s Software Requirements Specification (SRS) and associated Interface
-Requirements Specifications (IRSs). For system testing, traceability from each system
-requirement in the system’s System/Subsystem Specification (SSS) and associated IRSs.
-If a test case addresses multiple requirements, the traceability shall indicate the particular
-test procedure steps that address each requirement.
+   case(s) that address it. For CSCI testing, traceability from each CSCI requirement in the
+   CSCI’s Software Requirements Specification (SRS) and associated Interface
+   Requirements Specifications (IRSs). For system testing, traceability from each system
+   requirement in the system’s System/Subsystem Specification (SSS) and associated IRSs.
+   If a test case addresses multiple requirements, the traceability shall indicate the particular
+   test procedure steps that address each requirement.
 
 6. Notes. This section shall contain any general information that aids in understanding this
 document (e.g., background information, glossary, rationale). This section shall include an
