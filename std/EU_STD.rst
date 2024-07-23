@@ -167,26 +167,40 @@ considerations are included where applicable.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This paragraph shall identify a test by project-unique identifier,
-shall provide a brief description, and shall be divided into the
-following subparagraphs. When the information required duplicates
-information previously specified for another test, that information may
-be referenced rather than repeated.
+shall provide a brief description, and is divided into the following
+subparagraphs. When the information required duplicates information
+previously specified for another test, that information may be
+referenced rather than repeated.
 
 3.x.1 Hardware preparation
 --------------------------
 
-This paragraph shall describe the procedures necessary to prepare the
+This paragraph describes the procedures necessary to prepare the
 hardware for the test. Reference may be made to published operating
-manuals for these procedures. The following shall be provided, as
-applicable:
+manuals for these procedures.
+
+The following shall be provided, as applicable:
+
+a. The specific hardware to be used, identified by name and, if applicable, number
+b. Any switch settings and cabling necessary to connect the hardware
+c. One or more diagrams to show hardware, interconnecting control, and data paths
+d. Step-by-step instructions for placing the hardware in a state of readiness
 
 3.x.2 Software preparation
 --------------------------
 
-This paragraph shall describe the procedures necessary to prepare the
+This paragraph describes the procedures necessary to prepare the
 item(s) under test and any related software, including data, for the
 test. Reference may be made to published software manuals for these
-procedures. The following information shall be provided, as applicable:
+procedures.
+
+The following information shall be provided, as applicable:
+
+a. The specific software to be used in the test
+b. The storage medium of the item(s) under test (e.g., magnetic tape, diskette)
+c. The storage medium of any related software (e.g., simulators, test drivers, databases)
+d. Instructions for loading the software, including required sequence
+e. Instructions for software initialization common to more than one test case
 
 3.x.3 Other pre-test preparations
 ---------------------------------
@@ -197,14 +211,14 @@ preparations, or procedures necessary to perform the test.
 4.0 Test descriptions
 =====================
 
-This section shall be divided into the following paragraphs. Safety
+This section is divided into the following paragraphs. Safety
 precautions, marked by WARNING or CAUTION, and security and privacy
-considerations shall be included as applicable.
+considerations are included as applicable.
 
 4.x (Project-unique identifier of a test)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This paragraph shall identify a test by project-unique identifier and
+This paragraph shall identify each test by project-unique identifier and
 shall be divided into the following subparagraphs. When the required
 information duplicates information previously provided, that
 information may be referenced rather than repeated.
@@ -268,6 +282,19 @@ This paragraph shall identify the criteria to be used for evaluating
 the intermediate and final results of the test case. For each test
 result, the following information shall be provided, as applicable:
 
+a. The range or accuracy over which an output can vary and still be acceptable
+b. Minimum number of combinations or alternatives of input and output conditions that
+   constitute an acceptable test result
+c. Maximum/minimum allowable test duration, in terms of time or number of events
+d. Maximum number of interrupts, halts, or other system breaks that may occur
+e. Allowable severity of processing errors
+f. Conditions under which the result is inconclusive and re-testing is to be performed
+g. Conditions under which the outputs are to be interpreted as indicating irregularities in input
+   test data, in the test database/data files, or in test procedures
+h. Allowable indications of the control, status, and results of the test and the readiness for
+   the next test case (may be output of auxiliary test software)
+i. Additional criteria not mentioned above.
+
 4.x.y.6 Test procedure
 ######################
 
@@ -285,6 +312,37 @@ series of keystrokes or other actions. The appropriate level of detail
 is the level at which it is useful to specify expected results and
 compare them to actual results. The following shall be provided for
 each test procedure, as applicable:
+
+a. Test operator actions and equipment operation required for each step, including
+   commands, as applicable, to:
+
+     1. Initiate the test case and apply test inputs
+     2. Inspect test conditions
+     3. Perform interim evaluations of test results
+     4. Record data
+     5. Halt or interrupt the test case
+     6. Request data dumps or other aids, if needed
+     7. Modify the database/data files
+     8. Repeat the test case if unsuccessful
+     9. Apply alternate modes as required by the test case
+     10. Terminate the test case
+
+b. Expected result and evaluation criteria for each step
+c. If the test case addresses multiple requirements, identification of which test procedure
+   step(s) address which requirements. (Alternatively, this information may be provided in 5.)
+d. Actions to follow in the event of a program stop or indicated error, such as:
+
+     1. Recording of critical data from indicators for reference purposes
+     2. Halting or pausing time-sensitive test-support software and test apparatus
+     3. Collection of system and operator records of test results
+
+e. Procedures to be used to reduce and analyze test results to accomplish the following, as applicable:
+
+     1. Detect whether an output has been produced
+     2. Identify media and location of data produced by the test case
+     3. Evaluate output as a basis for continuation of test sequence
+     4. Evaluate test output against required output
+
 
 4.x.y.7 Assumptions and constraints
 ###################################
