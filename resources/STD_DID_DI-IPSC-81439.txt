@@ -169,6 +169,12 @@ This section shall be divided into the following paragraphs. Safety
 precautions, marked by WARNING or CAUTION, and security and privacy considerations shall
 be included as applicable.
 
+4.x (Project-unique identifier of a test).
+
+This paragraph shall identify a test by project-unique identifier and shall be divided into
+the following subparagraphs. When the required information duplicates information previously
+provided, that information may be referenced rather than repeated.
+
 4.x.y (Project-unique identifier of a test case).
 
 This paragraph shall identify a test case by
