@@ -27,10 +27,10 @@
 
    * - .. class:: title-name
 
-       Software Version Description
+       Software Test Description for Advanced ACME Web Services Appliance
    * - .. class:: title-name
 
-       ACME Engineering Evaluation Unit
+       Engineering Evaluation Unit
 
 |
 |
@@ -38,15 +38,15 @@
 
 .. class:: title-info
 
-Doc #00001043
+Doc Number ACME0081439A
 
 .. class:: title-info
 
-Version 0.1
+Doc Version 0.1
 
 .. class:: title-info
 
-01/24/24
+07/23/24
 
 |
 |
@@ -88,12 +88,8 @@ Document revision history.
      - Description
    * - 0.1
      - SLA
-     - 2024-01-24
+     - 2024-07-23
      - Initial draft shell
-   * - 0.2
-     - SLA
-     - 2024-06-15
-     - Add example CUI marks and distribution statement
 
 
 .. raw:: pdf
@@ -151,8 +147,6 @@ engineering evaluation unit.
 .. [ACME0081443A]
 
 .. _Software User Manual: https://github.com/VCTLabs/software_user_manual_template/blob/master/sum/EU_SUM.rst
-
-
 
 
 3.0 Test preparations
