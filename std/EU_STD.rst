@@ -1,4 +1,4 @@
-.. create pdf with "rst2pdf EU_SVD.rst -s styles/std.yaml,styles/cui.yaml --use-floating-images -o EU_SVD.pdf"
+.. create pdf with "rst2pdf EU_STD.rst -s styles/std.yaml,styles/cui.yaml --use-floating-images -o EU_STD.pdf"
 
 .. class:: title-logobox
 
@@ -140,72 +140,21 @@ analytics from Spark.
 
 
 
-3.0 Version description
-=======================
+3.0 Test preparations
+=====================
+
+This section shall be divided into the following paragraphs. Safety
+precautions, marked by WARNING or CAUTION, and security and privacy considerations shall
+be included as applicable.
+
+
+3.x (Project-unique identifier of a test)
+#########################################
 
 
 
-3.1 Inventory of materials released
-###################################
-
-
-
-3.2 Inventory of software contents
-##################################
-
-The (yocto) build manifests provide per-image listings of the installed
-software packages; see `Appendix A. Non-production image SW versions`_ for
-the current development image listing.
-
-
-3.3 Changes installed
-########################
-
-ChangeLog documents for each CSCI are generated as-needed from the git
-repository history for a given configuration item using the gitchangelog_
-tool. See the following sections in `Appendix B. SW Changelog data`_
-for the relevant change listings.
-
-Both Github PR/merges and Issue/bug status for each CSCI are extracted
-and summarized from the log history using the ``.gitchangelog.rc`` file
-in each repository
-
-.. _gitchangelog: https://sarnold.github.io/gitchangelog/
-
-* `Meta lxde`_
-* `SVD template repo`_
-
-
-3.4 Adaptation data
-###################
-
-
-3.5 Related documents
-#####################
-
-
-
-3.6 Installation instructions
-#############################
-
-
-
-3.7 Possible problems and known errors
-######################################
-
-
-
-4.0 General information
-=======================
-
-This section shall contain any general information that aids in understanding
-this document (e.g., background information, glossary, rationale). This section
-shall include an alphabetical listing of all acronyms, abbreviations, and their
-meanings as used in this document and a list of any terms and definitions needed
-to understand this document.
-
-4.1 Acronyms and abbreviations
-##############################
+Appendix A. Acronyms and abbreviations
+======================================
 
 The following may be used in this document to describe specific technologies
 or engineering processes.
